@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv "
 
 requirements:
@@ -39,5 +39,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - Daniel-Cunningham
+    - dcunn
     - adbeda
+    - oblute
+    - rluria14
